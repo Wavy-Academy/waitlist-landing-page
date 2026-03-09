@@ -36,7 +36,7 @@ export function HeroSection() {
       </div>
 
       <div className="mt-8 max-w-150 px-2">
-        <p className={`text-xl font-normal leading-relaxed sm:text-[20px] ${siteTheme.bodyText}`}>
+        <p className={`text-md font-normal leading-relaxed sm:text-[20px] ${siteTheme.bodyText}`}>
           {siteContent.heroSubtitle}
         </p>
       </div>
@@ -46,7 +46,7 @@ export function HeroSection() {
         alt=""
         width={66}
         height={66}
-        className="pointer-events-none absolute right-25 top-65 h-14 w-14 rotate-13 sm:right-14 sm:top-55 sm:h-24 sm:w-24"
+        className="pointer-events-none absolute right-5 top-55 h-14 w-14 rotate-13 sm:right-14 sm:top-55 sm:h-24 sm:w-24"
       />
 
       <div className="relative mt-10 w-full max-w-185 px-2 sm:px-0">

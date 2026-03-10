@@ -36,18 +36,19 @@ export function HeroSection() {
       </div>
 
       <div className="mt-8 max-w-150 px-2">
-        <p className={`text-md font-normal leading-relaxed sm:text-[20px] ${siteTheme.bodyText}`}>
+        <p className={`text-sm font-normal leading-relaxed sm:text-[20px] ${siteTheme.bodyText}`}>
           {siteContent.heroSubtitle}
         </p>
-      </div>
-
-      <Image
+        <Image
         src={siteAssets.signal}
         alt=""
         width={66}
         height={66}
-        className="pointer-events-none absolute right-5 top-55 h-14 w-14 rotate-13 sm:right-14 sm:top-55 sm:h-24 sm:w-24"
+        className="pointer-events-none absolute right-8 top-54 h-14 w-14 rotate-13 sm:right-14 sm:top-55 sm:h-24 sm:w-24"
       />
+      </div>
+
+      
 
       <div className="relative mt-10 w-full max-w-185 px-2 sm:px-0">
         <Image
@@ -71,13 +72,6 @@ export function HeroSection() {
           className="mx-auto h-auto w-90 sm:w-130"
           priority
         />
-        {/* <Image
-          src={siteAssets.signal}
-          alt=""
-          width={76}
-          height={76}
-          className="pointer-events-none absolute -right-2 bottom-12 h-14 w-14 -rotate-28 sm:-right-14 sm:bottom-20 sm:h-19 sm:w-19"
-        /> */}
       </div>
     </section>
   );

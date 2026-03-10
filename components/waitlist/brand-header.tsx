@@ -7,9 +7,9 @@ export function BrandHeader() {
       <Image
         src={siteAssets.logo}
         alt={siteContent.logoAlt}
-        width={100}
-        height={100}
-        className="md:h-14 md:w-17 h-15 w-17 md:fixed relative left-2 sm:left-10"
+        width={200}
+        height={200}
+        className="md:h-24 md:w-26 h-22 w-24 md:fixed relative left-2 sm:left-10"
         priority
       />
     </>

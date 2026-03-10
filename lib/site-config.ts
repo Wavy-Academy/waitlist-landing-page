@@ -20,7 +20,7 @@ export const siteContent = {
 } as const;
 
 export const siteAssets = {
-  logo: "/IMG_4134 1 (1).png",
+  logo: "/logo.svg",
   heroArt: "/IMG_4133 1.png",
   lightBulb: "/ILLUSTRATIONS-12 1.png",
   cable: "/ILLUSTRATIONS-11 1.png",

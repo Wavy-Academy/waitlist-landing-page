@@ -7,7 +7,7 @@ export function AboutSection() {
       <h2 className={`text-4xl font-bold tracking-tight sm:text-4xl ${siteTheme.sectionText}`}>
         {siteContent.aboutTitle}
       </h2>
-      <p className={`mt-5 max-w-185 text-xl font-normal leading-relaxed text-center sm:text-[19px] ${siteTheme.bodyText}`}>
+      <p className={`mt-5 max-w-185 text-md font-normal leading-relaxed text-center sm:text-[19px] ${siteTheme.bodyText}`}>
         {siteContent.aboutBody}
       </p>
       <Image

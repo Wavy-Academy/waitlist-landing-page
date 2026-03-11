@@ -16,6 +16,7 @@ export function AboutSection() {
         width={398}
         height={387}
         className="mt-8 h-auto w-52.5 sm:mt-5 sm:w-80"
+        priority={true}
       />
     </section>
   );

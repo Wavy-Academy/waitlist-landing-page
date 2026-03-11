@@ -17,6 +17,7 @@ export function HeroSection() {
           alt=""
           width={72}
           height={72}
+          priority={true}
           className="pointer-events-none absolute -right-10 -top-8 h-14 w-14 sm:-right-15 sm:-top-6 sm:h-20 sm:w-20"
         />
         <Image
@@ -24,6 +25,7 @@ export function HeroSection() {
           alt=""
           width={58}
           height={58}
+          priority={true}
           className="pointer-events-none absolute left-1 top-14 h-13 w-13 -rotate-1 sm:-left-6 sm:top-17 sm:h-24 sm:w-24"
         />
         <h1
@@ -44,6 +46,7 @@ export function HeroSection() {
         alt=""
         width={66}
         height={66}
+        priority={true}
         className="pointer-events-none absolute right-8 top-54 h-14 w-14 rotate-13 sm:right-14 sm:top-55 sm:h-24 sm:w-24"
       />
       </div>
@@ -56,6 +59,7 @@ export function HeroSection() {
           alt=""
           width={52}
           height={52}
+          priority={true}
           className="pointer-events-none absolute left-5 -top-4 h-12 w-12 rotate-90 sm:left-12 sm:-top-7 sm:h-16 sm:w-16"
         />
         <div className="flex justify-center w-full">

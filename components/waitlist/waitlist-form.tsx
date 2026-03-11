@@ -43,7 +43,7 @@ export function WaitlistForm() {
     <div className="w-9/12">
       <form
         onSubmit={handleSubmit}
-        className={`md:grid flex flex-col relative gap-3 rounded-full p-1 sm:grid-cols-[1fr_auto] sm:gap-2 ${siteTheme.formShell}`}
+        className={`sm:grid flex flex-col relative gap-3 rounded-full p-1 sm:grid-cols-[1fr_auto] sm:gap-2 ${siteTheme.formShell}`}
       >
         <label className="sr-only" htmlFor="email">
           {siteContent.emailPlaceholder}
